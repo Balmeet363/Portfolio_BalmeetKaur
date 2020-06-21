@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width" initial-scale="1">
+		<title>Portfolio website</title> 
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="script/portfolio.js"></script>
+		<script src="script/script.js"></script>
+	</head>
+	<body>
+		<!-- header of portfolio website -->
+		<header>
+			<div class ="container">
+				<div class="row">
+					<div class="logo_name">
+						<a href="#home" id="logo"><h2>Balmeet Kaur</h2></a>
+					</div>
+					
+					<div class="navigation_bar">
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about-me">About</a></li>
+							<li><a href="#my-projects">Portfolio</a></li>
+							<li><a href="#blog">Blog</a></li>
+							<li><a href="#footer">Contact</a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</header>
+		<!--Home section -->
+		<section class="home" id="home">
+			<div class="container">
+				<div class="row full-screen">
+					<div class="home-content">
+						<div class="block">
+							<h6>Hello, My Name is</h6>
+							<h1>Balmeet Kaur</h1>
+							<h3>Junior Front-End Developer</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About us section -->
+		<section class="about-me" id="about-me">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<h1>About Me</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="about-info">
+						<div class="image">
+							<img src="images/balmeet.jpg" alt="personal image" width="350px" height="400px">
+						</div>
+						<div class="about-description">
+							<h3>Information About Me</h3>
+							<p>I am a certified Web Developer from Humber College Institute of Technology and Advanced Learning. 
+							I am a dedicated, Outgoing developer with a passion for learning. My proficiency in English and the 
+							challenge of analyzing problems makes me suitable to work in a team environment.</p>
+						    <h4>Skills:</h4>
+							<div class ="row">
+								<div class="skill-box">
+									<h6>HTML5</h6>
+									<div class="skill-bar">
+									</div>
+								</div>
+								<div class="skill-box">
+									<h6>CSS</h6>
+									<div class="skill-bar">
+									</div>
+								</div>
+								<div class="skill-box">
+									<h6>ASP.Net</h6>
+									<div class="skill-bar">
+									</div>
+								</div>
+								<div class="skill-box">
+									<h6>JavaScript</h6>
+									<div class="skill-bar">
+									</div>
+								</div>
+								<div class="skill-box">
+									<h6>PHP</h6>
+									<div class="skill-bar">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- My Projects -->
+		<section class="my-projects" id="my-projects">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<h1>My Projects</h1>
+						<p>Click on project name to open its description</p>
+					</div>
+				
+					<div class="row">
+						<div class="ProjectContainer">
+							<h2>Calorie Tracker Project</h2>
+							<p class="project_description">
+							Calorie tracker Is a web application to track the calorie of a person. 
+							Precisely it will ask the user to select the items that he consumes in 
+							a day based on the dietary chart visible. Based on the selection the user 
+							will get to know how much calories is consumed. For the logged in user, 
+							depending on their given information, the application will notify the user 
+							about their calorie limitation for the day.
+							<a href="http://calorietracker.balmeetbuttar.com/">Visit Website</a>
+							<a href="Project1Description.html" 
+                               target="popup" 
+                               onclick="window.open('Project1Description.html',
+							   'popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                               Read More
+                            </a>
+							</p>
+						</div>
+						<div class="ProjectContainer">
+							<h2>Restaurant Project</h2>
+							<p class="project_description">
+							Tropixel is a restaurant project made using HTML, CSS, Javascript and JQuery. 
+							This restaurant has various options available such as menu, events, about us 
+							and contact us. Restaurant menu contains menu item options. Events page contains 
+							three submenus contest, giftcards and bookings. About us page contains restaurant
+							informations and Contact Us page conatins form to contact with restaurant with three 
+							sub menus carrers , locations and sitemap
+							<a href="http://tropixel.balmeetbuttar.com/">Visit Website</a>
+							</p> 
+						</div>
+						<div class="ProjectContainer">
+							<h2>Weather API Project</h2>
+							<p class="project_description">
+							Weather API is a project used to display weather information to a user. Two API’s 
+							Google API for sign In and weather API to display weather information are used in 
+							this project. At first user has to login by entering his username and student ID 
+							provided by Humber college. Regular expressions used to validate user input. If 
+							user does not want to enter their details to login, then he can also sign In through 
+							their Google account.
+							<a href="http://weatherapi.balmeetbuttar.com/">Visit Website</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Blog section -->
+		<section class="blog" id="blog">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<h1>Latest Blogs</h1>
+				    </div>
+				</div>
+				<div class="blog-images">
+					<div class="job-image">
+						<img src="images/job.jpg" alt="job blog image" height="300px" width="300px">
+						<h2>New job Experience</h2>
+						<div class="job-detail">
+							<p>
+							I am sharing my experience after getting my first job. I have done Bachelor of computer Science
+							from India and I got my first job as a Software Developer in 2016. I was very happy because I got
+							a chance to lend my skills in the development industry.I met new developers over there who helped 
+							me a lot to enhance my skills.Senior developers taught me to solve problems by explaining, identifying
+							and finding a sloution. I became a good learner over there. I learned various languages like Advanced Java,
+							C# amd C++. The company atmosphere always encouraged me to be punctual and accomplish the task before the 
+							deadline.To enhance my skills further in the IT environment, I decided on the idea of moving to a foreign country 
+							for education.I am in my last semester now. I wanted to be a Front-End Web Developer and work in a company.
+							I can easily adjust myself in company environment.I am working hard so that God can fulfil my dreams and I can 
+							easily accomplish my destiny.
+							</p>
+						</div>
+					</div>
+					<div class="concept-image">
+						<img src="images/concept.png" alt="learned concept blog image" height="300px" width="300px">
+						<h2>Learned New Concept</h2>
+						<div class="concept-detail">
+							<p>
+						    Communication with people all over the world has become easy nowadays due to advancement in technology.
+							At first, people started sending messages through letters but now a person can easily view another person 
+							from a far distance.Here I want to share idea of one feature made in a project based on sending messages.I 
+							was working on a team project named Calorie Tracker that calculates the number of calories required by a 
+							person per day. My feature was to send a message to a person through an email regarding the required consumption of calories.
+							I had never learned how to send an email but I wanted to accomplish the task before the deadline. 
+							I collaborated with my team and discussed my problem.We all team members figured out a way to send an email.
+							I was happy that until know, the Gmail account which I ue daily to send emails, I know the exact coding of this account
+							to send an email.Being a web developer and working in a team always taught me a way to corporate in a team, slove the 
+							problem by discussing it and working hard to solve a problem until it meets a solution.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<!-- footer and contact section-->
+		<footer id="footer">
+			<div class="container" >
+				<div class="logo">
+					<div class="row">
+						<p>Balmeet Kaur</p>
+					<div class="row">
+					<div class="contact">
+						<p>Contact me at :balmeetkaur52@gmail.com</p>
+						<p>Github: https://github.com/Balmeet363</p>
+						<p>LinkedIn: https://www.linkedin.com/in/balmeet-kaur-67654b1a0/</p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</footer>
+		<section class="copyright">
+			<div class="container">
+				<p>&copy;2020 copyright all right reserved</p>
+			</div>
+		</section>
+	</body>
+</html>
